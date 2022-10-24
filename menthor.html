@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        body{
+            background: url("https://cdn.pixabay.com/photo/2015/07/31/20/35/background-869580_960_720.png") no-repeat center fixed;
+            background-size:cover ;
+            margin: 0;
+            padding: 0;
+            font-family: Nunito, Arial, Helvetica, sans-serif;
+        }
+        #container{
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            height: 600px;
+            background-color: white;
+            border-radius: 25px;
+            text-align: center;
+            box-shadow: 0px 0px 10px 10px #0000008a;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 200px;
+        }
+        #background{
+            background: url("https://cdn.pixabay.com/photo/2022/10/16/13/53/early-morning-7525151__340.jpg") no-repeat center;
+            background-size: cover;
+            height: 200px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        #content{
+            margin-top: 10px;
+        }
+        #content > p{
+            color: gray;
+            margin: 20px;
+        }
+
+
+
+        #b1{
+            margin-top: 10px;
+            background-color: rgb(72, 20, 192);
+            color: white;
+            border: none;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 35px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        #b1:hover{
+            cursor: pointer;
+        }
+
+        #b2{
+            margin-top: 10px;
+            color: gray;
+            background-color: white;
+            border: none;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 35px;
+            font-weight: bold;
+        }
+        #b2:hover{
+            cursor: pointer;
+        }
+
+        #plan{
+            display: box;
+            font-size: 25px;
+            justify-content: center;
+        }
+        p:nth-last-child(3){
+            font-size: 14px;
+            font-weight: bold;
+        }
+        p:nth-last-child(2){
+            font-size: 12px;
+            color: gray;
+        }
+
+        a{
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <div id="background"></div>
+        <div id="content">
+            <h1>Order Summary</h1>
+            <p>You can now listen to millions of songs,
+                audiobooks, and podcast on any device 
+                anywhere you like!
+            </p>
+        </div>
+        <div id="plan">
+            <p>Annual Plan</p>
+            <p>$59.99/year</p>
+            <a href="#">Change</a>
+        </div>
+        <button id="b1">Proceed to Payment</button>
+        <button id="b2">Cancel Order</button>
+    </div>
+
+</body>
+</html>
